@@ -1,0 +1,336 @@
+@import url('https://fonts.cdnfonts.com/css/brushstroke');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Brushstroke', sans-serif;
+}
+
+li:hover {
+    color: red
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url(https://dashgamer.com/wp-content/uploads/2021/02/thumb-1920-987525.jpg);
+    background-position: 0% 0% ;
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+#jokercontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid gray ;
+    border-top: 2px solid gray ;
+    padding: 10px 0px 10px 0px;
+}
+
+.joker {
+    width: 500px;
+    height: 700px;
+    background-image: url(https://i.pinimg.com/564x/37/5f/e6/375fe6b86abf35b4b5ab948965a83c03.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.jokerinf {
+    width: 450px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Brushstroke', sans-serif;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.jokername {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.jokerpersona {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.jokerpersonaimg {
+    background-image: url(https://i.pinimg.com/originals/95/e6/98/95e69887e48c6effdf933ba7ea963f6b.jpg);
+    width: 450px;
+    height: 700px;
+    background-repeat: no-repeat;
+    display: inline;
+    background-position: 50% 20%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#skullcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid gray ;
+    border-top: 2px solid gray ;
+    padding: 10px 0px 10px 0px;
+}
+
+.skull {
+    width: 500px;
+    height: 700px;
+    background-image: url(https://i.pinimg.com/originals/31/c3/c4/31c3c4660bfc7ca8babc74d205d5a5a8.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.skullinf {
+    width: 450px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Brushstroke', sans-serif;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.skullname {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.skullpersona {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.skullpersonaimg {
+    background-image: url(https://i.pinimg.com/736x/c4/d4/56/c4d456fc4f8e3ffe5358e73ba11aedb4.jpg);
+    width: 450px;
+    height: 700px;
+    background-repeat: no-repeat;
+    display: inline;
+    background-position: 99% 20%;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#monacontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    padding: 10px 0px 10px 0px;
+}
+
+.mona {
+    width: 500px;
+    height: 700px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/099ea79c-db22-4510-a219-c568620c811f/desuzju-e1e45944-9842-41c7-95e5-bc52c60958a0.png/v1/fill/w_670,h_1192,q_70,strp/wallpaper_mobile___persona_5___phantom_morgana_by_leopassos100_desuzju-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgyMSIsInBhdGgiOiJcL2ZcLzA5OWVhNzljLWRiMjItNDUxMC1hMjE5LWM1Njg2MjBjODExZlwvZGVzdXpqdS1lMWU0NTk0NC05ODQyLTQxYzctOTVlNS1iYzUyYzYwOTU4YTAucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.8wNNWyFL99BDWLIslHvqWh4obaTO6wPShCgSwQtOOME);
+    background-repeat: no-repeat;
+    background-position: 30% 88%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.monainf {
+    width: 450px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Brushstroke', sans-serif;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.monaname {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.monapersona {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+
+.monapersonaimg {
+    background-image: url(https://preview.redd.it/lsf0xjdqaga21.jpg?width=640&crop=smart&auto=webp&s=a2e3aac261c7c8f2aac7e28b5f3e7eaab2be8253);
+    width: 450px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: inline;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: 'Brushstroke', sans-serif;
+}
+
+.footerNavigation {
+    display: none;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    header {
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 7px;
+        flex-direction: column;
+    }
+
+    .footerNavigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #logo {
+        width: 120px;
+        height: auto;
+    }
+
+    #banner {
+        height: 300px;
+        background-size: cover;
+    }
+
+    #jokercontainer, #skullcontainer, #monacontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .joker{
+        background-position: 50% 75%;
+    }
+
+    .mona{
+        background-position: 30% 70%;
+    }
+
+    .joker, .skull, .mona, .jokerpersonaimg, .skullpersonaimg, .monapersonaimg {
+        width: 100%;
+        height: 400px;
+    }
+
+    .jokerinf, .skullinf, .monainf {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footerNavigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerList {
+        flex-direction: column;
+    }
+
+    span {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+}

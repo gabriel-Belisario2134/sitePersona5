@@ -54,7 +54,9 @@ body{
     height: 800px;
     margin-top: 10px;
     display: flex;
-    background-image: url(https://scontent.fbsb28-1.fna.fbcdn.net/v/t31.18172-8/19956040_10154838211668108_7808733991749224913_o.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=gOah8Y1Ow3IQ7kNvgFQpY9K&_nc_ht=scontent.fbsb28-1.fna&oh=00_AYC2ruPTthq7bMUZHL_DsKmcoZaUCobz7wJeaY40sra0_Q&oe=6711113D);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/672/831/605/persona-series-shin-megami-tensei-series-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .conteudoPrimario{
@@ -93,41 +95,27 @@ span {
 }
 
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        height: auto;
+    .footerNavigation {
+        display: block;
     }
 
     nav {
-        width: 100%;
+        display: none;
     }
 
-    ul {
-        flex-direction: column;
-        align-items: center;
-    }
+   #conteiner1 {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://preview.redd.it/i-edited-a-black-frost-iphone-wallpaper-to-complement-a-v0-b6f0wnp3gvpa1.png?width=1080&crop=smart&auto=webp&s=e5687010fdc1d114ce7f8779075488c6f85042d1);
+    background-position: 90% center
+   }
 
-    li {
-        font-size: 16px;
-    }
-
-    #logo {
-        width: 100px;
-    }
-
-    #conteiner1 {
-        flex-direction: column;
-        height: auto;
-        background-size: cover;
-    }
-
-    .conteudoPrimario {
-        width: 90%;
-        margin-top: 50px;
-        margin-left: 0;
-    }
-
-    footer {
-        height: auto;
-    }
+   .conteudoPrimario {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+   }
 }
